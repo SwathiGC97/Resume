@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Swathi GC</title>
+
+</head>
+<script type="text/javascript">
+	alert("If you want to know something awesome Click OK! :)");
+</script>
+<style>
+
+	#resize{
+		text-align: center;
+		margin-top: 10px;
+		font-size: 25px;
+	}
+	body{
+		/*background-image: 'https://wallpapercave.com/wp/wp4429299.png';*/
+		background-color:;
+		margin:100px;
+		background-image:url(https://edmonton-resume-services-bdhnzkgi9bxs2vsposwd.netdna-ssl.com/wp-content/uploads/2016/08/938-white-background-wallpaper-2560x1600-Custom.jpg);
+	}	
+
+	h2{
+		/*background-color: #F0F0F0;lightslategray*/
+		height: 25px;
+		width: 100%;
+		/*color: whitesmoke;*/
+		color: black;
+		text-decoration: underline;
+
+		/*background-color:lightslategray ;*/
+	}
+	button{
+		border:5px;
+		border-radius: 10px;
+		color: black;
+		/*background-color: #ffffff;*/
+	}
+
+	a{
+		color: black;
+	}
+		
+</style>
+<body>
+	<div id="resize">
+		<h1>Swathi GC</h1>
+	</div>
+	
+	<div id="qotes_section">
+		<h6 id="change_value">
+			<button type="submit" value="rand_quotes" onclick="quotes()">Click to get Quotes</button>&nbsp<button type="submit" value="rand_imges" onclick="imgfun()">Click to get Quote Images</button>
+		
+		<!-- <h6 id="img_value"> -->
+			
+		</h6>
+		<img id="x" src="">
+		<h4 id="new_value"></h4>
+	</div>
+
+	
+	
+	<div id="header">
+		<h2>Contact Information</h2>
+		<ul>
+			<li>Phone:9980709453</li>
+			<li>Email:swathigc997@gmail.com</li>
+			<li><a href="https://www.linkedin.com/in/swathi-gc-18b142141">Linkdein Profile</a></li>
+		</ul>
+	</div>
+
+	<div id="caer_obj">
+		<h2>Career Objective</h2>
+			<p>To seek a challenging career that gives me the ample opportunity to prove my abilities and work in an environment so as to enrich my capabilities by providing the best.</p>
+	</div>
+	
+	<div id="skills">
+			<h2>Skills</h2>	
+			<p>
+			    <ul>
+				    <!-- <li>Reliable and punctual</li>
+				    <li>Fast Learner</li>
+				    <li>Communication Skills</li>
+				    <li>Delivers Results</li>
+				    <li>Interpersonal</li>
+				    <li>Open minded</li>
+				    <li>Ambitious</li>
+				    <li>Self improvement</li>
+				    <li>Adaptability</li> -->
+				    <li>Java,Servlets,JSP</li>
+				    <li>JDBC</li>
+				    <li>SQL</li>
+				    <li>HTML,CSS,JavaScript</li>
+				    <li>Automic,UIPath,Automation Anywhere</li>
+
+		    	</ul>
+		    </p>	
+	</div>
+
+	<div id="projects">
+		<h2>Projects</h2>
+		<p>
+			<ul>
+				<li>Web Catlogue<br/>&nbsp&nbsp&nbsp&nbspTechnology:JSP<br/>&nbsp&nbsp&nbsp&nbspDesigning:HTML,CSS</li><br/>
+				<li>Windows Disk Check<br/>&nbsp&nbsp&nbsp&nbspTechnology:Java</li><br/>
+				<li>EDI Parent-Child<br/>&nbsp&nbsp&nbsp&nbspTool:Automic,UiPath</li><br/>
+				<li>SMQ2 Inbound Queue<br/>&nbsp&nbsp&nbsp&nbspTool:Automic</li><br/>
+				<li>Automation Anywhere University Login<br/>&nbsp&nbsp&nbsp&nbspTool:UiPath</li>
+			</ul>
+		</p>
+	</div>
+	<div id="acaproj">
+		<h2>Academic Projects</h2>
+		<p>
+			<ul>
+				<li>GENERIC SENSOR INTERFACE MODEL FOR ANALOG FRONT END and it’s DIGITIZATION<br/>&nbsp&nbsp&nbsp&nbspDomain:VLSI</li><br/>
+				<li>VEHICLE THEFT AND ACCIDENT NOTIFICATION<br/>&nbsp&nbsp&nbsp&nbspDomain: Embedded System(Microcontrollers)</li>
+			</ul>
+		</p>
+	</div>
+	<div id="education">
+		<h2>Education</h2>
+		<table border="1">
+			<thead>
+				<th>COURSE</th>
+				<th>INSTITUTION</th>
+				<th>UNIVERSITY</th>
+				<th>YEAR OF PASSING</th>
+			</thead>
+			<tr>
+				<td>BE</td>
+				<td>PESIT-SOUTH CAMPUS</td>
+				<td>VTU</td>
+				<td>2018</td>
+			</tr>
+			<tr>
+				<td>Diploma</td>
+				<td>SVK Polytechnic</td>
+				<td>DTE</td>
+				<td>2015</td>
+			</tr>
+			<tr>
+				<td>SSLC</td>
+				<td>KVK HIGH SCHOOL</td>
+				<td>KSEE BOARD</td>
+				<td>2012</td>
+			</tr>
+		</table>
+	</div>
+	<script type="text/javascript">
+		
+		var images=['https://cdn.shopify.com/s/files/1/0017/0432/9285/files/programming-quotes-for-developers-made4dev-coding-is-creative.jpg?v=1539287552',
+			'https://cdn.shopify.com/s/files/1/0017/0432/9285/files/programming-quotes-for-developers-made4dev-programmer-author.jpg?v=1539287556','https://cdn.shopify.com/s/files/1/0017/0432/9285/files/programming-quotes-for-developers-made4dev-50-90-rule.jpg?v=1539287546',
+			'https://cdn.shopify.com/s/files/1/0017/0432/9285/files/programming-quotes-for-developers-made4dev-beautiful-code.jpg?v=1539287546','https://cdn.shopify.com/s/files/1/0017/0432/9285/files/programming-quotes-for-developers-made4dev-binary.jpg?v=1539287546',
+			'https://cdn.shopify.com/s/files/1/0017/0432/9285/files/programming-quotes-for-developers-made4dev-clean-code.jpg?v=1539287547',
+			'https://cdn.shopify.com/s/files/1/0017/0432/9285/files/programming-quotes-for-developers-made4dev-code-as-if.jpg?v=1539287546',
+			'https://cdn.shopify.com/s/files/1/0017/0432/9285/files/programming-quotes-for-developers-made4dev-code-never-lies.jpg?v=1539287547',
+			'https://cdn.shopify.com/s/files/1/0017/0432/9285/files/programming-quotes-for-developers-made4dev-crappy-software.jpg?v=1539287552',
+			'https://cdn.shopify.com/s/files/1/0017/0432/9285/files/programming-quotes-for-developers-made4dev-job.jpg?v=1539287550'];
+		
+		var quote=['You might not think that programmers are artists, but programming is an extremely creative profession.It\'s logic-based creativity.',
+			'Every programmer is an author.',
+			'The 50-50-90 rule: Anytime you have a 50-50 chance of getting something right, theres a 90% probability you\'ll get it wrong.',
+			'In software, the most beautiful code, the most beautiful functions, and the most beautiful programs are sometimes not there at all.',
+			'There are 10 types of people in this world, those who understand binary and those who don\'t',
+			'One of my most productive days was throwing away 1000 lines of code.',
+			'Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live',
+			'Code never lies, comments sometimes do',
+			'One man’s crappy software is another man’s full time job.','Don’t worry if it doesn’t work right. If everything did, you’d be out of a job.'];
+		
+
+
+		var num=Math.floor(Math.random()*10);
+		//var num=0;
+		console.log("hey i am "+num);
+		
+		function quotes(){
+			var element=document.getElementById("change_value");
+			element.style.display="none";
+			console.log("hey buttons are disappered");
+			document.getElementById("new_value").innerHTML=quote[num];
+			console.log(quote[num]);
+		}
+		
+		function imgfun(){
+			var element=document.getElementById("change_value");
+			element.style.display="none";
+			document.getElementById("x").src=images[num];
+			console.log(num+"Inside of images function");
+			document.getElementById('x').width=300;
+			document.getElementById('x').height=300;
+			document.getElementById('x').align='middle';
+		}
+	</script>
+</body>
+	
+</html>
